@@ -1,7 +1,7 @@
 import type { Request, Response } from "express";
 import bcrypt from "bcrypt";
 import jwt from "jsonwebtoken";
-import { pool } from "../config/db";
+import { pool } from "../config/db.js";
 import { StatusCodes } from "http-status-codes";
 
 export const signup = async (req: Request, res: Response): Promise<void> => {
