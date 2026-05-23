@@ -1,7 +1,7 @@
 import express from "express";
 import cors from "cors";
-import authRoutes from "./routes/authRoutes.js"; // <-- .js extension
-import issueRoutes from "./routes/issueRoutes.js"; // <-- .js extension
+import authRoutes from "./routes/authRoutes"; 
+import issueRoutes from "./routes/issueRoutes"; 
 
 const app = express();
 app.use(cors());

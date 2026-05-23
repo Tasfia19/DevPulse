@@ -1,5 +1,5 @@
-import app from "./app.js"; // <-- .js extension
-import { pool } from "./config/db.js"; // <-- .js extension
+import app from "./app";
+import { pool } from "./config/db"; 
 
 const PORT = process.env.PORT || 3000;
 
